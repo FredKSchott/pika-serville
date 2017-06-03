@@ -1,4 +1,4 @@
-> `pika-serville` is an ES6 module fork of Serville.  It matches the original Serville module described below, but is meant to be loaded via module `import` instead of Node's commonjs `require()`.
+> `pika-serville` is an ES6 module fork of Serville.  It matches the original Serville module described below, except that it is loaded via module `import` instead of Node's commonjs `require()`. See the updated code snippets below for the new import syntax.
 
 <h1 align="center">Serville</h1>
 
