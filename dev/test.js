@@ -1,9 +1,9 @@
 // A testing server script for Serville.
-let Serville = require('./serville');
+import Serville from './serville';
 
-// Make a new Serville server on port 8080.
-let app = Serville().listen(8080, () => {
-  console.log('Listening on :8080.');
+// Make a new Serville server on port 4332.
+let app = Serville().listen(4332, () => {
+  console.log('Listening on :4332.');
 });
 
 app.log((msg) => console.log(`e: ${msg}`));

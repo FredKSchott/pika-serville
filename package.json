@@ -1,22 +1,23 @@
 {
-  "name": "serville",
+  "name": "pika-serville",
   "version": "1.4.0",
-  "description": "Serville, the fast and easy HTTP API library for NodeJS.",
-  "main": "serville.js",
+  "description": "An ES6 module version of Serville, the fast and easy HTTP API library for NodeJS.",
+  "module": "index.js",
   "scripts": {
     "test": "eslint dev",
     "fix": "eslint dev --fix",
     "dev": "node dev/test.js",
-    "build": "babili dev/serville.js -o serville.js"
+    "build": "babili dev/serville.js -o index.js"
   },
   "keywords": [
     "http",
     "server",
     "serville",
-    "api"
+    "api",
+    "pika-ready"
   ],
-  "repository": "emctague/serville",
-  "author": "Ethan McTague",
+  "repository": "FredKSchott/serville",
+  "author": "Fred K. Schott",
   "license": "MIT",
   "devDependencies": {
     "babili": "^0.1.2",

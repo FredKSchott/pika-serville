@@ -1,6 +1,6 @@
-const http = require('http');
-const url = require('url');
-const querystring = require('querystring');
+import * as http from 'http';
+import * as url from 'url';
+import * as querystring from 'querystring';
 
 /* A tiny HTTP server that matches simple path patterns and serves up JSON data.
  * Copyright 2017 Ethan McTague and Contributors.
@@ -172,4 +172,5 @@ class Serville {
     return this;
   }
 }
-module.exports = () => new Serville();
+
+export default () => new Serville();
