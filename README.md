@@ -1,3 +1,5 @@
+> `pika-serville` is an ES6 module fork of Serville.  It matches the original Serville module described below, but is meant to be loaded via module `import` instead of Node's commonjs `require()`.
+
 <h1 align="center">Serville</h1>
 
 ---
@@ -18,11 +20,13 @@ well! **It takes just minutes to set it up and give it a whirl.**
 **Set It Up:**
 
 ```sh
-npm i --save serville
+npm i --save pika-serville
 ```
 
 ```js
-const app = require('serville')();
+import Serville from 'pika-serville';
+
+const app = Serville();
 app.listen('8080');
 
 app.at('/', (q) => ({ message: "Hello!" }));
