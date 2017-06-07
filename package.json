@@ -1,6 +1,6 @@
 {
   "name": "pika-serville",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "An ES6 module fork of Serville, the fast and easy HTTP API library for NodeJS.",
   "module": "module.js",
   "scripts": {
