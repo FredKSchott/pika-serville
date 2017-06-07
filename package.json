@@ -1,20 +1,20 @@
 {
   "name": "pika-serville",
   "version": "1.4.0",
-  "description": "An ES6 module version of Serville, the fast and easy HTTP API library for NodeJS.",
-  "module": "index.js",
+  "description": "An ES6 module fork of Serville, the fast and easy HTTP API library for NodeJS.",
+  "module": "module.js",
   "scripts": {
     "test": "eslint dev",
     "fix": "eslint dev --fix",
     "dev": "node dev/test.js",
-    "build": "babili dev/serville.js -o index.js"
+    "build": "babili dev/serville.js -o module.js"
   },
   "keywords": [
     "http",
     "server",
     "serville",
     "api",
-    "pika-ready"
+    "pika-package"
   ],
   "repository": "FredKSchott/serville",
   "author": "Fred K. Schott",
